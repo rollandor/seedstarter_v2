@@ -22,6 +22,18 @@
   }
 }
 
+.left {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  color: white;
+  font-size: 24px;
+
+  span {
+    color: #26a677;
+  }
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -58,5 +70,14 @@
 @media screen and (max-width: 960px) {
   .navbar {
     display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .left {
+    span,
+    p {
+      display: none;
+    }
   }
 }

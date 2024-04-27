@@ -10,13 +10,18 @@ export const Header: FC = () => {
   return (
     <>
       <header className={styles["app-header"]}>
-        <Image
-          className={styles["app-header__logo"]}
-          src="/logo.png"
-          alt="logo"
-          width={274}
-          height={40}
-        />
+        <div className={styles.left}>
+          <Image
+            className={styles["app-header__logo"]}
+            src="/menu_logo.svg"
+            alt="menu logo"
+            width={38}
+            height={36}
+          />
+          <p>
+            SEEDSTARTER <span>DAO</span>
+          </p>
+        </div>
 
         <nav className={styles["navbar"]}>
           <ul className={styles["navbar__list"]}>
