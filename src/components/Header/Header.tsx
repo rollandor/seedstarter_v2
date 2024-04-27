@@ -8,7 +8,7 @@ import styles from "./Header.module.scss";
 
 export const Header: FC = () => {
   return (
-    <>
+    <div className="container">
       <header className={styles["app-header"]}>
         <div className={styles.left}>
           <Image
@@ -67,6 +67,6 @@ export const Header: FC = () => {
           </div>
         </nav>
       </header>
-    </>
+    </div>
   );
 };

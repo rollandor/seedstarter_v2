@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Source_Code_Pro, Exo } from "next/font/google";
+import { Source_Code_Pro, Exo, Manrope } from "next/font/google";
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
 });
 
-const exo = Exo({
+const exo = Manrope({
   subsets: ["latin"],
 });
 
