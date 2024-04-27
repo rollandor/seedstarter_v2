@@ -28,10 +28,6 @@
   font-size: 16px;
   gap: 16px;
 
-  @media (max-width: 960px) {
-    display: none;
-  }
-
   &__list {
     display: flex;
     padding: 0;
@@ -56,5 +52,11 @@
     a {
       color: white;
     }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .navbar {
+    display: none;
   }
 }

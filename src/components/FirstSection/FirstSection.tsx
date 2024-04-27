@@ -5,7 +5,7 @@ import styles from "@/components/FirstSection/FirstSection.module.scss";
 
 const FirstSection: FC = () => {
   return (
-    <section className="flex flex-col gap-4 pb-4">
+    <section className="flex flex-col px-8">
       <div className={styles.firstSection}>
         <div className={styles.container}>
           <div className={styles.left}>

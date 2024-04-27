@@ -32,7 +32,7 @@ export const Header: FC = () => {
           </ul>
 
           <a href="#" className="btn-link">
-            Participate
+            Connect wallet
           </a>
 
           <div className={styles["navbar__vertical-line"]}></div>

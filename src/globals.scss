@@ -35,10 +35,10 @@ body {
 }
 
 .btn-link {
-  color: #2A296B;
-  background: #00E583;
+  color: #2a296b;
+  background: #00e583;
   padding: 8px 16px;
-  border: 1px solid #00E583;
+  border: 1px solid #00e583;
   border-radius: 8px;
   transition: 300ms;
 
@@ -53,8 +53,24 @@ body {
     background: transparent;
 
     &:hover {
-      background: #00E583;
-      color: #2A296B;
+      background: #00e583;
+      color: #2a296b;
+      transition: 300ms;
+    }
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .btn-link {
+    &:hover {
+      background: transparent;
+      color: white;
+      transition: 300ms;
+    }
+
+    &--inverse:hover {
+      background: #00e583;
+      color: #2a296b;
       transition: 300ms;
     }
   }
