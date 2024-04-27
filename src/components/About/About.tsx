@@ -57,22 +57,6 @@ export const About: FC = () => {
           </div>
         </div>
       </div>
-
-      <div className={styles["about__bottom"]}>
-        <div className={styles["about__bottom-item"]}>
-          <span>Powered By:</span>
-          <Image
-            src="/bnb_chain_logo.png"
-            alt="bnb_chain"
-            width={123}
-            height={22}
-          />
-        </div>
-        <div className={styles["about__bottom-item"]}>
-          <span>Audited By:</span>
-          <Image src="/audit.png" alt="audit" width={158} height={64} />
-        </div>
-      </div>
     </section>
   );
 };
