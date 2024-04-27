@@ -4,20 +4,8 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Team",
-    hash: "#team",
-  },
-  {
-    name: "ICO",
-    hash: "#ico",
-  },
-  {
-    name: "SDS token",
-    hash: "#sdstoken",
-  },
-  {
-    name: "FAQ",
-    hash: "#faq",
+    name: "STO",
+    hash: "#sto",
   },
   {
     name: "Docs",
