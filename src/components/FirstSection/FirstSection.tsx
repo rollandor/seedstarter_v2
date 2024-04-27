@@ -5,7 +5,7 @@ import styles from "@/components/FirstSection/FirstSection.module.scss";
 
 const FirstSection: FC = () => {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col gap-4 pb-4">
       <div className={styles.firstSection}>
         <div className={styles.container}>
           <div className={styles.left}>
@@ -34,14 +34,19 @@ const FirstSection: FC = () => {
           <span>Powered By:</span>
           <Image
             src="/bnb_chain_logo.png"
-            alt="bnb_chain"
-            width={123}
-            height={22}
+            alt="bnb chain"
+            width={130}
+            height={20}
           />
         </div>
         <div className={styles["bottom-item"]}>
           <span>Audited By:</span>
-          <Image src="/audit.png" alt="audit" width={158} height={64} />
+          <Image
+            src="/audit.png"
+            alt="audit by hacken"
+            width={130}
+            height={15}
+          />
         </div>
       </div>
     </section>
