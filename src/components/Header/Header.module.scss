@@ -8,7 +8,7 @@
 }
 
 .app-header {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
 
@@ -28,6 +28,10 @@
   font-size: 16px;
   gap: 16px;
 
+  @media (max-width: 960px) {
+    display: none;
+  }
+
   &__list {
     display: flex;
     padding: 0;
@@ -39,31 +43,16 @@
     }
   }
 
-  &__button {
-    color: #2A296B;
-    background: #00E583;
-    padding: 8px;
-    border: 1px solid #00E583;
-    border-radius: 4px;
-    transition: 300ms;
-
-    &:hover {
-      background: transparent;
-      color: white;
-      transition: 300ms;
-    }
-  }
-
   &__vertical-line {
     width: 1px;
     height: 32px;
-    background-color: #00E583;
+    background-color: #00e583;
   }
 
   &__social-media {
     display: flex;
     gap: inherit;
-    
+
     a {
       color: white;
     }

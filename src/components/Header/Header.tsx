@@ -30,7 +30,7 @@ export const Header: FC = () => {
           ))}
         </ul>
 
-        <a href="#" className={styles["navbar__button"]}>
+        <a href="#" className="btn-link">
           Participate
         </a>
 
