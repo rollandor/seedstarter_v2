@@ -11,8 +11,7 @@ const FirstSection: FC = () => {
           <div className={styles.container}>
             <div className={styles.left}>
               <p>
-                Make Money <br />
-                Smart: <span>JOIN</span> the <span>SEEDSTARTER</span>{" "}
+                Make Money Smart: <span>JOIN</span> the <span>SEEDSTARTER</span>{" "}
                 Revolution!
               </p>
               <div className={styles["btn-group"]}>

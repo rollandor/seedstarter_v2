@@ -8,7 +8,7 @@
   &-left {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 0 4rem;
 
     h1 {
       font-size: 72px;
@@ -17,17 +17,26 @@
     p {
       font-size: 20px;
     }
+  }
+}
 
-    @media (max-width: 660px) {
-      padding: 1rem;
-      h1 {
-        font-size: 40px;
-      }
+@media screen and (max-width: 1200px) {
+  .about {
+    grid-template-columns: 1fr;
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 660px) {
+  .about-left {
+    padding: 1rem;
+
+    h1 {
+      font-size: 40px;
     }
   }
 
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr;
-    padding-bottom: 32px;
+  .about p {
+    font-size: 16px;
   }
 }
