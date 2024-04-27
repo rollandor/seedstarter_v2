@@ -9,10 +9,10 @@ import styles from "./Header.module.scss";
 export const Header: FC = () => {
   return (
     <div className="container">
-      <header className={styles["app-header"]}>
+      <header className={styles["header"]}>
         <div className={styles.left}>
           <Image
-            className={styles["app-header__logo"]}
+            className={styles["header__logo"]}
             src="/menu_logo.svg"
             alt="menu logo"
             width={38}
