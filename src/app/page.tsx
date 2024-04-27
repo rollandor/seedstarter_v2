@@ -9,6 +9,7 @@ export default function Home() {
     <main className="app">
       <Header />
       <FirstSection />
+      <About />
     </main>
   );
 }

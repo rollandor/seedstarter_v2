@@ -1,61 +1,31 @@
 import classNames from "classnames";
 import React, { FC } from "react";
-import Image from "next/image";
 
 import styles from "@/components/About/About.module.scss";
 
 export const About: FC = () => {
   return (
-    <section className={styles["about"]}>
-      <div className={styles["container"]}>
-        <div className={styles["about__info"]}>
+    <section className="flex flex-col bg-white">
+      <div className={styles["about"]}>
+        <div className={styles["about-left"]}>
+          <h1>About</h1>
           <p>
-            <span>SEEDSTARTER -</span>
+            The SeedStarter DAO offers an innovative approach to venture funding
+            by creating a closed investment community in the form of a
+            decentralized autonomous organization (DAO), designed to provide
+            participants with the opportunity to explore the market for crypto
+            ideas and gain access to closed early investments on exclusive terms
+            of a major fund 
             <br />
-            <strong>decentralized </strong>
-            private
             <br />
-            investors
-            <strong> venture fund</strong>
+            We providing solution with no mediators, aimed to
+            streamline the process of connecting innovative ideas with private
+            investor capital. This direct interaction foster greater efficiency
+            and transparency in the investment process, benefiting both
+            entrepreneurs and investors alike.
           </p>
-          <ul>
-            <li>Fair participation</li>
-            <li>Deficit tokenomics</li>
-            <li>Decentralized control</li>
-          </ul>
         </div>
-
-        <div className={styles["about__main"]}>
-          <p>
-            <strong>JOIN </strong>
-            <span>
-              the closed investment <br /> community{" "}
-            </span>
-            and become a
-            <b>
-              <span> SEED </span>
-            </b>
-            <br />
-            investor with
-            <b>
-              <span> SEEDSTARTER</span>
-            </b>
-          </p>
-          <div className={styles["about__main-actions"]}>
-            <a
-              href="#"
-              className={classNames(
-                styles["btn-link"],
-                styles["btn-link--inverse"]
-              )}
-            >
-              Explore
-            </a>
-            <a href="#" className={styles["btn-link"]}>
-              Participate
-            </a>
-          </div>
-        </div>
+        <div className={styles["about-right"]}></div>
       </div>
     </section>
   );

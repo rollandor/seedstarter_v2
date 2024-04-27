@@ -13,14 +13,15 @@
     grid-template-columns: 1fr;
     padding-bottom: 32px;
   }
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-  }
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 .left {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
