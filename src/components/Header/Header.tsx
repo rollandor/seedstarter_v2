@@ -10,14 +10,8 @@ export const Header: FC = () => {
   return (
     <div className="container">
       <header className={styles["header"]}>
-        <div className={styles.left}>
-          <Image
-            className={styles["header__logo"]}
-            src="/menu_logo.svg"
-            alt="menu logo"
-            width={38}
-            height={36}
-          />
+        <div className={styles["header__logo"]}>
+          <Image src="/menu_logo.svg" alt="menu logo" width={38} height={36} />
           <p>
             SEEDSTARTER <span>DAO</span>
           </p>
@@ -39,6 +33,9 @@ export const Header: FC = () => {
           <a href="#" className="btn-link">
             Connect wallet
           </a>
+          <div className={styles["navbar__burger"]}>
+            <div className={styles["navbar__burger-line"]}></div>
+          </div>
 
           <div className={styles["navbar__vertical-line"]}></div>
 
